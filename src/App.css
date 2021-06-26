@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'PT Sans Caption', sans-serif;
 }
 
 .App-logo {
@@ -55,6 +59,7 @@ body {
 .v1_4 {
   width: 691px;
   height: 825px;
+  background-image: url(/src/images/v1_4.png);
   
   background-repeat: no-repeat;
   background-position: center center;
@@ -103,6 +108,14 @@ body {
 .name {
   color: #fff;
 }
+.Linkedin {
+  width: 24px;
+  height: 24px;
+  flex-grow: 0;
+  margin: 2px 2px 0 0;
+  object-fit: contain;
+  background-image: url(/src/images/Linkedin.svg);
+}
 .v1_9 {
   width: 67px;
   color: rgba(0,0,0,1);
@@ -114,6 +127,14 @@ body {
   font-size: 14px;
   opacity: 1;
   text-align: left;
+}
+.Instagram {
+  width: 24px;
+  height: 24px;
+  flex-grow: 0;
+  margin: 0 2px 2px 29px;
+  object-fit: contain;
+  background-image: url(/src/images/Instagram.svg);
 }
 .v2_7 {
   width: 67px;
@@ -181,4 +202,8 @@ body {
   top: 261px;
   left: 398px;
   border-radius: 50%;
+  background-image: url(/src/images/v1_7.png);
+  background-size: 287px;
+  background-position-y: center;
+
 }

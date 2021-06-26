@@ -10,7 +10,10 @@ function App() {
       <div class="v2_8">
         <div class="name"></div>
         <div class="name"></div>
-        <span class="v1_9">Yaretas24</span><span class="v2_7">Yaretas24</span>
+        <div class="Linkedin"></div>
+        <span class="v1_9">Yaretas24</span>
+        <div className="Instagram"></div>
+        <span class="v2_7">Yaretas24</span>
       </div>
       <span class="v1_18"
         >I chose design track because I love to design beautiful user-centered
